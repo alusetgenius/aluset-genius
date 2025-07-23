@@ -8,10 +8,8 @@ form.addEventListener('submit', async (e) => {
 
   const res = await fetch('/chat', {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
-    body: JSON.stringify({ message: userMessage }),
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ message: userMessage })
   });
 
   const data = await res.json();
