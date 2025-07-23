@@ -3,9 +3,11 @@ body {
   padding: 2rem;
   background-color: #f4f4f4;
 }
+
 h1 {
   color: #333;
 }
+
 #chat-form {
   margin-top: 20px;
 }
